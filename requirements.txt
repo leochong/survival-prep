@@ -1,0 +1,12 @@
+# Core search needs NOTHING beyond Python 3.9+ standard library.
+#
+# Optional: semantic (embedding) search. Install while you still have internet,
+# then run `python -m survival_rag ingest --embed` once so the model is cached.
+sentence-transformers>=2.7
+numpy>=1.24
+#
+# Optional: nicer frontmatter parsing (a built-in fallback parser exists)
+PyYAML>=6.0
+#
+# Dev
+pytest>=7

@@ -120,7 +120,7 @@ def test_every_document_valid(doc):
 def test_every_region_has_plant_guide():
     regions = {r for d in DOCS if d.meta.get("category") == "plants" for r in
                (d.meta["region"] if isinstance(d.meta["region"], list) else [d.meta["region"]])}
-    for r in ["northeast", "southeast", "midwest", "great-plains", "southwest",
+    for r in ["northeast", "southeast", "midwest", "great-plains", "southwest", "great-basin",
               "rocky-mountains", "pacific-northwest", "california", "alaska", "hawaii"]:
         assert r in regions, f"no plant guide for {r}"
 
@@ -134,8 +134,18 @@ def test_every_region_has_plant_guide():
     ("make soap from wood ash", "soap"),
     ("oral rehydration salt sugar recipe", "ors"),
     ("pressure canning botulism green beans", "food-preservation"),
+    ("Reno pinyon pine nuts trees", "nevada-reno-las-vegas"),
+    ("Las Vegas edible trees mesquite date palm", "nevada-reno-las-vegas"),
 ])
 def test_real_queries_retrieve_expected_docs(query, expected_path_part):
     idx = Index([c for d in DOCS for c in chunk_document(d)])
     paths = [h.chunk.path for h in idx.search(query, k=3)]
     assert any(expected_path_part in p for p in paths), paths
+
+
+def test_nevada_sections_are_region_scoped():
+    doc = next(d for d in DOCS if "nevada-reno-las-vegas" in d.path)
+    by_section = {c.section.split(" > ")[0]: c.regions for c in chunk_document(doc)}
+    reno = next(v for k, v in by_section.items() if k.startswith("Reno"))
+    vegas = next(v for k, v in by_section.items() if k.startswith("Las Vegas"))
+    assert reno == ["great-basin"] and vegas == ["southwest"]

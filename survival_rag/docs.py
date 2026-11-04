@@ -32,6 +32,7 @@ VALID_REGIONS = {
     "midwest",
     "great-plains",
     "southwest",
+    "great-basin",
     "rocky-mountains",
     "pacific-northwest",
     "california",
@@ -239,8 +240,10 @@ def chunk_document(doc: Document, max_chars: int = 1200) -> list[Chunk]:
         # applies only to that region, so region-filtered searches stay precise.
         chunk_regions = regions
         top = _slug(section.split(" > ")[0]) if section else ""
-        if len(regions) > 1 and top in VALID_REGIONS and top != "all":
-            chunk_regions = [top]
+        if len(regions) > 1 and top:
+            named = [r for r in regions if r != "all" and re.search(rf"(^|-){r}(-|$)", top)]
+            if len(named) == 1:  # "## Reno and the Great Basin" -> great-basin only
+                chunk_regions = named
         paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
         for i, piece in enumerate(_pack(paragraphs, max_chars)):
             digest = hashlib.sha1(f"{doc.path}|{section}|{i}".encode()).hexdigest()[:12]

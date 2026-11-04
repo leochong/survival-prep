@@ -11,7 +11,7 @@ last_reviewed: 2026-11-03
 
 # Desert Southwest US: Wild Edibles and Medicinals
 
-**States/areas:** Arizona, New Mexico, southern Nevada, southern Utah, west Texas, southeastern California deserts (Mojave, Sonoran, Chihuahuan). Arid; extreme heat in summer, cold desert nights, monsoon storms July–September; sky-island mountains hold pine/oak forests.
+**States/areas:** Arizona, New Mexico, southern Nevada, southern Utah, west Texas, southeastern California deserts (Mojave, Sonoran, Chihuahuan). For Las Vegas (Mojave) and Reno (Great Basin) specifics, including urban trees, see *Reno and Las Vegas, Nevada*. Arid; extreme heat in summer, cold desert nights, monsoon storms July–September; sky-island mountains hold pine/oak forests.
 
 ## Top edible plants
 

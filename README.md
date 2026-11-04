@@ -2,7 +2,7 @@
 
 An **offline-first retrieval-augmented generation (RAG) knowledge base** of survival skills for a long-term grid-down / disaster / "apocalypse" scenario in the United States.
 
-- **61 curated documents, ~530 retrieval chunks** across medicine, regional plants, survival how-to, maps, navigation, building, low-resource chemistry, food, and communications.
+- **62 curated documents, ~560 retrieval chunks** across medicine, regional plants, survival how-to, maps, navigation, building, low-resource chemistry, food, and communications.
 - **Search works with zero dependencies.** The core is pure Python standard library (BM25), so it runs on a Raspberry Pi or an old laptop with no internet.
 - **Optional semantic search** with `sentence-transformers` embeddings (hybrid BM25 + vector, reciprocal-rank fusion).
 - **Optional local LLM answers** through any OpenAI-compatible local server (Ollama, llama.cpp, LM Studio). There is no cloud dependency.
@@ -18,6 +18,7 @@ knowledge/                       # the corpus: markdown + YAML frontmatter
                                  # ORS, CPR, envenomation, med kit, childbirth, dental
   02-plants-and-herbal/          # foraging rules, deadly lookalikes, mushrooms, medicinal herbs
     regions/                     # northeast, southeast, midwest, great-plains, southwest,
+                                 # great-basin + nevada-reno-las-vegas,
                                  # rocky-mountains, pacific-northwest, california, alaska, hawaii
   03-survival-howto/             # priorities, water purification, finding water, fire, shelter,
                                  # sanitation, signaling, nuclear/CBRN, knots & cordage

@@ -1,7 +1,7 @@
 ---
 title: US Regions — Terrain, Climate, and Natural Hazards
 category: maps
-region: [northeast, southeast, midwest, great-plains, southwest, rocky-mountains, pacific-northwest, california, alaska, hawaii]
+region: [northeast, southeast, midwest, great-plains, southwest, great-basin, rocky-mountains, pacific-northwest, california, alaska, hawaii]
 tags: [regions, climate, hazards, hurricanes, tornadoes, earthquakes, wildfire, floods, blizzards, volcano, tsunami, terrain]
 risk: medium
 sources: [NOAA National Weather Service, USGS Natural Hazards, FEMA National Risk Index]
@@ -40,7 +40,14 @@ Knowing your region's dominant hazards shapes your shelter, water, and evacuatio
 - **Terrain:** basin-and-range, mesas, canyons, sky-island mountains.
 - **Climate:** arid; summer highs above 110°F (43°C) in low deserts; cold nights; monsoon July–September.
 - **Hazards:** extreme heat, flash floods in canyons and washes (even from distant storms), dust storms (haboobs), wildfire, water scarcity.
-- **Water:** the dominant survival factor; cities depend on long-distance aqueducts and canals.
+- **Water:** the dominant survival factor; cities depend on long-distance aqueducts and canals. **Las Vegas** (Mojave) gets about 90% of its water from Lake Mead, and summer highs exceed 110°F.
+
+## Great Basin
+- **Area:** most of Nevada (Reno, Carson City, Elko), western Utah, southeastern Oregon, and the eastern edge of California.
+- **Terrain:** north–south mountain ranges separated by wide sagebrush valleys and dry lake beds (playas). No rivers drain to the sea; water ends in sinks and salty lakes (Pyramid Lake, Great Salt Lake).
+- **Climate:** high cold desert, with hot dry summers, cold winters, large day–night temperature swings, and 5–12 inches of precipitation.
+- **Hazards:** earthquakes (the Walker Lane fault zone; Reno–Carson has a high seismic risk), wildfire in cheatgrass and sagebrush, winter storms on mountain passes (I-80 Donner Summit), drought, flash floods, extreme isolation between towns, and dust storms.
+- **Water:** scarce. Rivers fed by Sierra snowmelt (Truckee, Carson, Walker), springs at the base of ranges, and wells. Many lakes and playas are salty or alkaline.
 
 ## Rocky Mountains
 - **Terrain:** high mountains (to 14,000 ft), high valleys and basins.

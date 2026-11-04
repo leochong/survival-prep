@@ -10,7 +10,7 @@ title: Controlling Severe Bleeding          # required
 category: medical                           # required: medical | plants | survival | maps | navigation |
                                             #   building | chemistry | food | communications | meta
 region: all                                 # required: all, or one/list of: northeast, southeast, midwest,
-                                            #   great-plains, southwest, rocky-mountains, pacific-northwest,
+                                            #   great-plains, southwest, great-basin, rocky-mountains, pacific-northwest,
                                             #   california, alaska, hawaii
 tags: [bleeding, tourniquet, trauma]        # required: retrieval keywords and synonyms
 risk: high                                  # low | medium | high (default low)

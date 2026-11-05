@@ -1,0 +1,5 @@
+# Images are binary; never let line-ending conversion touch them.
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary

@@ -44,6 +44,8 @@ Heat + fuel + oxygen. Gather everything **before** striking a spark:
    - Kneel with your foot on the hearth, wrap the cord once around the spindle, steady the bearing block against your shin, and bow with long full strokes — slow and pressing at first, then fast — until smoke pours and dark dust fills the notch and holds a glowing coal.
    - Transfer the coal to a tinder bundle and blow gently until flame.
 
+![Labeled drawing of bow drill parts and a person kneeling to use one](../../images/03-survival-howto/bow-drill.jpg)
+
 ## Char cloth (make in advance)
 
 Place 100% cotton squares in a small metal tin with a nail hole in the lid. Set in a fire; smoke and flame jet from the hole. When smoke stops, remove and let cool **before** opening. Black, intact squares catch sparks instantly.

@@ -31,6 +31,8 @@ The ground steals heat faster than air. Pile at least 6–12 inches (compressed 
 3. Pile leaves/debris **at least 2–3 feet thick** (thicker in colder weather) over everything, then add sticks to hold it down.
 4. Stuff the inside full of dry leaves and crawl in; plug the entrance with a leaf-stuffed bag or debris pile.
 
+![Two-step drawing of a debris hut frame of sticks and then the frame covered with leaves](../../images/03-survival-howto/debris-hut.jpg)
+
 ### Tarp shelters
 - **A-frame:** ridgeline between two trees, tarp draped over, edges staked down. Good rain protection.
 - **Lean-to:** one edge high, the other staked to the ground, back to the wind — pairs with a fire and reflector in front.

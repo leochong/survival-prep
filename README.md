@@ -2,7 +2,8 @@
 
 An **offline-first retrieval-augmented generation (RAG) knowledge base** of survival skills for a long-term grid-down / disaster / "apocalypse" scenario in the United States.
 
-- **62 curated documents, ~560 retrieval chunks** across medicine, regional plants, survival how-to, maps, navigation, building, low-resource chemistry, food, and communications.
+- **62 curated documents, ~580 retrieval chunks** across medicine, regional plants, survival how-to, maps, navigation, building, low-resource chemistry, food, and communications.
+- **28 openly licensed reference images:** deadly plants next to their edible lookalikes, plus first aid, knots, fire, shelter, and navigation diagrams. Images are found by their captions, so image search also works with zero dependencies.
 - **Search works with zero dependencies.** The core is pure Python standard library (BM25), so it runs on a Raspberry Pi or an old laptop with no internet.
 - **Optional semantic search** with `sentence-transformers` embeddings (hybrid BM25 + vector, reciprocal-rank fusion).
 - **Optional local LLM answers** through any OpenAI-compatible local server (Ollama, llama.cpp, LM Studio). There is no cloud dependency.
@@ -31,6 +32,9 @@ knowledge/                       # the corpus: markdown + YAML frontmatter
   08-food-and-agriculture/       # preservation, storage & nutrition, gardening & seeds,
                                  # fishing/trapping/game, small livestock
   09-communications/             # emergency radio, PACE communication plan
+images/                          # licensed reference images, mirroring knowledge/ folders
+  manifest.json                  # caption, alt text, tags, region, risk, lookalikes, license
+  README.md                      # credits table (author, license, source for every image)
 maps/offline/                    # your downloaded map files (git-ignored)
 survival_rag/                    # the RAG engine (stdlib-only core)
 tools/fetch_usgs_topo.py         # download USGS topo GeoPDFs for an area, while online
@@ -54,7 +58,21 @@ python -m survival_rag ask "my friend was bitten by a rattlesnake, what do I do?
 python -m survival_rag ask --region southwest
 ```
 
-Other commands: `validate` checks frontmatter and `stats` summarizes the index.
+Other commands: `validate` checks frontmatter and the image manifest, and `stats` summarizes the index.
+
+## Images
+
+Docs embed images with ordinary markdown (`![alt text](../../images/...)`), so they render on GitHub and in any markdown viewer. Retrieval uses them in two ways:
+
+- **Attached to text.** Every chunk from a section that embeds an image lists that image, and `search` prints its path, license, and author under the hit.
+- **As their own results.** Each image is indexed from its caption, alt text, and tags. `search "what does water hemlock look like"` returns the water hemlock photo first, carrying its critical warning.
+
+```bash
+python -m survival_rag search "moonseed vs wild grape" --images-only
+python -m survival_rag search "how to tie a bowline"
+```
+
+The engine never looks at pixels. Images are found only through human-written descriptions, so it works offline on any hardware. Captions of high-risk plant photos always state that a photo alone is never enough for identification. Credits and licenses are listed in [`images/README.md`](images/README.md).
 
 ### Optional semantic search
 
@@ -77,7 +95,7 @@ The system prompt (`survival_rag/llm.py`) makes the model answer only from retri
 
 ### Using the corpus in another RAG stack
 
-`ingest` writes `index/chunks.jsonl`, one chunk per line with `text`, `title`, `section`, `category`, `regions`, `tags`, `risk`, and `warning`. You can load it directly into LangChain, LlamaIndex, Chroma, and similar tools. Use `Chunk.context_text()` (breadcrumb + text + warning) as the embedded text.
+`ingest` writes `index/chunks.jsonl`, one chunk per line with `text`, `title`, `section`, `category`, `regions`, `tags`, `risk`, `warning`, and `images` (ids that map to `index/images.json`). Image chunks have ids starting with `img-`. You can load it directly into LangChain, LlamaIndex, Chroma, and similar tools. Use `Chunk.context_text()` (breadcrumb + text + warning) as the embedded text.
 
 ## Offline maps
 
@@ -94,7 +112,7 @@ This downloads current USGS 7.5-minute US Topo GeoPDFs into `maps/offline/usgs-t
 2. `ollama pull llama3.2` (or a larger model if your hardware allows)
 3. Download maps for your home area and evacuation routes
 4. Copy this whole folder, including `index/`, `maps/offline/`, and model caches, to two USB drives, and keep one in a metal box
-5. **Print** the high-risk docs (`risk: high`): bleeding, CPR, water purification, deadly plants, and your regional plant guide
+5. **Print** the high-risk docs (`risk: high`): bleeding, CPR, water purification, deadly plants, and your regional plant guide. Print them from a markdown viewer so the images come with them: the deadly-plant photos are most useful on paper.
 
 ## Contributing content
 

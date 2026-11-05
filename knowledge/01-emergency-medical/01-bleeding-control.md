@@ -51,6 +51,8 @@ Use for arm or leg bleeding that is life-threatening or not controlled by pressu
 4. Write the time on the tourniquet or the casualty's forehead ("TK 14:35").
 5. Leave it on. Removing or converting a tourniquet is a skilled decision; limbs typically tolerate about 2 hours. If no care will ever be reachable, trained responders may attempt conversion to a pressure dressing after shock is treated, watching closely for re-bleeding.
 
+![Medic kneeling and tightening a tourniquet around the upper thigh of a casualty on the ground](../../images/01-emergency-medical/tourniquet-application.jpg)
+
 ### Improvised tourniquet
 
 - Band: a cloth strip 1.5–2 inches (4–5 cm) wide (triangular bandage, shirt strip). Never wire, string, or zip-ties — they cut tissue and fail.

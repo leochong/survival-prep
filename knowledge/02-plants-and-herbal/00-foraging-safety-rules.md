@@ -57,3 +57,5 @@ The US Army test is slow (24+ hours per plant part), needs a plentiful plant, an
 ## High-value, low-risk plants (nearly nationwide)
 
 Cattail, dandelion, plantain (*Plantago*), chickweed, lamb's quarters, purslane, wild blackberry/raspberry, wild strawberry, clover, stinging nettle (cooked), curly dock (cooked, in moderation), acorns (leached), pine (inner bark, needle tea — but see the ponderosa note and yew warning), rose hips, and grass seeds. See the regional guides for details and lookalikes.
+
+![Brown cylindrical cattail head standing among tall flat green leaves](../../images/02-plants-and-herbal/cattail.jpg)

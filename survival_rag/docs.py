@@ -45,6 +45,28 @@ VALID_RISK = {"low", "medium", "high"}
 FRONTMATTER_RE = re.compile(r"\A---\s*\r?\n(.*?)\r?\n---\s*\r?\n", re.S)
 HEADING_RE = re.compile(r"^(#{1,4})\s+(.*\S)\s*$")
 
+# ![alt text](../../images/02-plants-and-herbal/water-hemlock.jpg)
+IMAGE_RE = re.compile(r"!\[([^\]]*)\]\(\s*([^)\s]*?images/([^)\s]+))\s*\)")
+
+
+def image_id(file: str) -> str:
+    """An image's id is its filename stem (ids must therefore be unique repo-wide)."""
+    return Path(file).stem
+
+
+def extract_image_refs(text: str) -> tuple[str, list[str]]:
+    """Return (text with image markup replaced by its alt text, list of image ids)."""
+    ids: list[str] = []
+
+    def repl(m: re.Match) -> str:
+        iid = image_id(m.group(3))
+        if iid not in ids:
+            ids.append(iid)
+        alt = m.group(1).strip()
+        return f"[Image: {alt}]" if alt else "[Image]"
+
+    return IMAGE_RE.sub(repl, text), ids
+
 
 @dataclass
 class Document:
@@ -65,13 +87,15 @@ class Chunk:
     risk: str
     text: str
     warning: str = ""
+    images: list[str] = field(default_factory=list)  # ids from images/manifest.json
 
     def to_dict(self) -> dict:
         return asdict(self)
 
     @classmethod
     def from_dict(cls, d: dict) -> "Chunk":
-        return cls(**d)
+        known = cls.__dataclass_fields__
+        return cls(**{k: v for k, v in d.items() if k in known})  # old indexes lack 'images'
 
     def context_text(self) -> str:
         """Text that is indexed and handed to the LLM, with a breadcrumb header."""
@@ -244,6 +268,8 @@ def chunk_document(doc: Document, max_chars: int = 1200) -> list[Chunk]:
             named = [r for r in regions if r != "all" and re.search(rf"(^|-){r}(-|$)", top)]
             if len(named) == 1:  # "## Reno and the Great Basin" -> great-basin only
                 chunk_regions = named
+        # Images embedded in a section belong to every chunk of that section.
+        text, section_images = extract_image_refs(text)
         paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
         for i, piece in enumerate(_pack(paragraphs, max_chars)):
             digest = hashlib.sha1(f"{doc.path}|{section}|{i}".encode()).hexdigest()[:12]
@@ -259,6 +285,7 @@ def chunk_document(doc: Document, max_chars: int = 1200) -> list[Chunk]:
                     risk=str(meta.get("risk", "low")).lower(),
                     text=piece,
                     warning=str(meta.get("critical_warning", "") or ""),
+                    images=list(section_images),
                 )
             )
     return out

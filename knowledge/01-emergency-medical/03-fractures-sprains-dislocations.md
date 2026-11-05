@@ -40,6 +40,9 @@ Loss of CSM after splinting means the splint is too tight — loosen it.
 - **Lower leg:** rigid splints on both sides from mid-thigh to foot, or buddy-splint to the good leg with padding between.
 - **Finger/toe:** buddy-tape to the neighbor with padding between.
 
+![Line drawing of a man with a splinted forearm resting in a triangular sling](../../images/01-emergency-medical/forearm-splint.jpg)
+![Line drawing of an upper arm splinted with bands and the forearm in a sling](../../images/01-emergency-medical/upper-arm-splint.jpg)
+
 ## Open fractures
 
 Control bleeding, irrigate thoroughly with drinkable water, cover with a clean moist dressing, splint. Do not deliberately push bone back in (it may retract on its own when the limb is aligned). Very high infection risk; needs surgical care and antibiotics.

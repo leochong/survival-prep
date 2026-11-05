@@ -1,0 +1,737 @@
+[
+  {
+    "id": "water-hemlock",
+    "file": "02-plants-and-herbal/water-hemlock.jpg",
+    "title": "Water hemlock (Cicuta maculata)",
+    "caption": "Water hemlock in flower: many flat-topped umbrella clusters (umbels) of tiny white flowers on tall branching stems with purple streaks, growing in wet ground. The most toxic plant in North America; cut the stem base and roots lengthwise to see hollow chambers and yellow oily sap. A photo alone is never enough for identification.",
+    "alt": "Tall water hemlock plants with many white umbrella-shaped flower clusters and purple-streaked stems",
+    "category": "plants",
+    "region": "all",
+    "tags": [
+      "water-hemlock",
+      "cicuta",
+      "hemlock",
+      "deadly",
+      "poisonous",
+      "lookalike",
+      "umbel",
+      "carrot-family",
+      "wet-ground"
+    ],
+    "risk": "high",
+    "lookalikes": [
+      "wild-carrot",
+      "poison-hemlock"
+    ],
+    "critical_warning": "Water hemlock kills within hours; a walnut-sized piece of root can kill an adult. Never eat any wild carrot-family plant.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cicuta_maculata.jpg",
+    "author": "Williammehlhorn at English Wikipedia",
+    "license": "PD"
+  },
+  {
+    "id": "poison-hemlock",
+    "file": "02-plants-and-herbal/poison-hemlock.jpg",
+    "title": "Poison hemlock (Conium maculatum)",
+    "caption": "Poison hemlock: a tall plant with many small white umbels and finely divided, fern-like leaves, on disturbed ground. Look for smooth, hairless stems with purple blotches and a musty mousy smell; wild carrot has hairy stems and smells like carrot. Deadly. A photo alone is never enough for identification.",
+    "alt": "Tall poison hemlock with lacy fern-like leaves and many small white flower umbrellas in a grassy field",
+    "category": "plants",
+    "region": "all",
+    "tags": [
+      "poison-hemlock",
+      "conium",
+      "hemlock",
+      "deadly",
+      "poisonous",
+      "lookalike",
+      "umbel",
+      "carrot-family"
+    ],
+    "risk": "high",
+    "lookalikes": [
+      "wild-carrot",
+      "water-hemlock"
+    ],
+    "critical_warning": "Poison hemlock causes paralysis and respiratory failure. Never eat any wild carrot-family plant.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Conium_maculatum_Cresswell_01.jpg",
+    "author": "MPF",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "id": "wild-carrot",
+    "file": "02-plants-and-herbal/wild-carrot.jpg",
+    "title": "Wild carrot / Queen Anne's lace (Daucus carota)",
+    "caption": "Wild carrot (Queen Anne's lace) flower head seen from the side, showing the forked, thread-like bracts below the umbel. It has hairy stems and a carrot smell, but it is easily confused with deadly poison hemlock and water hemlock. A photo alone is never enough for identification.",
+    "alt": "Side view of a wild carrot flower umbrella with spiky green bracts underneath",
+    "category": "plants",
+    "region": "all",
+    "tags": [
+      "wild-carrot",
+      "queen-annes-lace",
+      "daucus",
+      "carrot-family",
+      "umbel",
+      "lookalike",
+      "edible-root"
+    ],
+    "risk": "high",
+    "lookalikes": [
+      "water-hemlock",
+      "poison-hemlock"
+    ],
+    "critical_warning": "Wild carrot has deadly lookalikes (poison hemlock, water hemlock). Never eat a carrot-family plant unless an expert confirms it in person.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Daucus_carota_May_2008-1_edit.jpg",
+    "author": "Alvesgaspar",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "id": "death-camas",
+    "file": "02-plants-and-herbal/death-camas.jpg",
+    "title": "Death camas (Toxicoscordion venenosum)",
+    "caption": "Death camas blooming in sagebrush steppe: a single stalk with a cluster of small cream-white flowers above grass-like leaves. The bulb has no onion smell. Deadly, and it grows right beside edible wild onion and blue camas. A photo alone is never enough for identification.",
+    "alt": "Death camas plant with a spike of cream-white flowers and grassy leaves in sagebrush",
+    "category": "plants",
+    "region": [
+      "great-plains",
+      "great-basin",
+      "rocky-mountains",
+      "pacific-northwest",
+      "california",
+      "southwest",
+      "midwest"
+    ],
+    "tags": [
+      "death-camas",
+      "zigadenus",
+      "toxicoscordion",
+      "deadly",
+      "poisonous",
+      "lookalike",
+      "bulb",
+      "onion"
+    ],
+    "risk": "high",
+    "lookalikes": [
+      "wild-onion",
+      "camas"
+    ],
+    "critical_warning": "Death camas bulbs look like wild onion and edible camas. If it does not smell of onion, it is not an onion; never dig bulbs when not in flower.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Toxicoscordion_venenosum_-_Patrick_Alexander_01.jpg",
+    "author": "Patrick Alexander",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "wild-onion",
+    "file": "02-plants-and-herbal/wild-onion.jpg",
+    "title": "Nodding wild onion (Allium cernuum)",
+    "caption": "Nodding wild onion in flower: a drooping cluster of pink bell-shaped flowers on a stem bent like a shepherd's crook, with grass-like leaves. Every part smells strongly of onion when crushed; a lookalike without the smell may be deadly death camas. A photo alone is never enough for identification.",
+    "alt": "Drooping cluster of small pink onion flowers on a bent stem",
+    "category": "plants",
+    "region": "all",
+    "tags": [
+      "wild-onion",
+      "allium",
+      "nodding-onion",
+      "edible",
+      "bulb",
+      "lookalike",
+      "onion-smell"
+    ],
+    "risk": "high",
+    "lookalikes": [
+      "death-camas"
+    ],
+    "critical_warning": "Death camas looks like wild onion but has no onion smell. No onion smell means do not eat it.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Allium_cernuum_-_Nodding_Onion_3.jpg",
+    "author": "Fritzflohrreynolds",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "id": "camas",
+    "file": "02-plants-and-herbal/camas.jpg",
+    "title": "Blue camas (Camassia quamash)",
+    "caption": "Blue camas in bloom: star-shaped blue-violet flowers on a leafless stalk above grass-like leaves, in a moist meadow. The bulb is a traditional staple when slow-roasted, but it grows mixed with deadly white-flowered death camas; dig only while in bloom and you are certain. A photo alone is never enough for identification.",
+    "alt": "Blue-violet star-shaped camas flowers on a tall stalk in a meadow",
+    "category": "plants",
+    "region": [
+      "pacific-northwest",
+      "rocky-mountains",
+      "california",
+      "great-basin"
+    ],
+    "tags": [
+      "camas",
+      "camassia",
+      "blue-camas",
+      "edible",
+      "bulb",
+      "lookalike",
+      "meadow"
+    ],
+    "risk": "high",
+    "lookalikes": [
+      "death-camas"
+    ],
+    "critical_warning": "Blue camas grows mixed with deadly death camas; their bulbs are nearly identical. Dig only plants in blue bloom.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Camassia_quamash_6374.JPG",
+    "author": "Walter Siegmund",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "id": "pokeweed",
+    "file": "02-plants-and-herbal/pokeweed.jpg",
+    "title": "Pokeweed berries (Phytolacca americana)",
+    "caption": "Pokeweed fruit cluster: a magenta-pink stem carrying shiny dark purple-black berries and unripe green berries. All parts are poisonous, especially the root and berries. A photo alone is never enough for identification.",
+    "alt": "Drooping cluster of dark purple pokeweed berries on a bright magenta stem",
+    "category": "plants",
+    "region": [
+      "northeast",
+      "southeast",
+      "midwest",
+      "great-plains"
+    ],
+    "tags": [
+      "pokeweed",
+      "poke",
+      "phytolacca",
+      "poisonous",
+      "berries",
+      "purple-berries"
+    ],
+    "risk": "high",
+    "critical_warning": "All parts of pokeweed are poisonous, especially the root and berries. Never eat mature plants.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phytolacca_americana_berries_Mccrea_Mills.jpg",
+    "author": "John B. from Highland Park, NJ, United States",
+    "license": "CC-BY-2.0"
+  },
+  {
+    "id": "moonseed",
+    "file": "02-plants-and-herbal/moonseed.jpg",
+    "title": "Moonseed fruit and seeds (Menispermum canadense)",
+    "caption": "Moonseed fruits look like small wild grapes, but each holds a single flat crescent-shaped (moon-shaped) seed, shown here beside the fruit. Moonseed vines have no tendrils; wild grapes have forked tendrils and several round seeds. Can be fatal. A photo alone is never enough for identification.",
+    "alt": "Three blue-black moonseed fruits next to two crescent-shaped ridged seeds",
+    "category": "plants",
+    "region": [
+      "northeast",
+      "southeast",
+      "midwest",
+      "great-plains"
+    ],
+    "tags": [
+      "moonseed",
+      "menispermum",
+      "poisonous",
+      "berries",
+      "grape-lookalike",
+      "lookalike",
+      "vine",
+      "crescent-seed"
+    ],
+    "risk": "high",
+    "lookalikes": [
+      "wild-grape"
+    ],
+    "critical_warning": "Moonseed looks like wild grape and can kill. Check every fruit: one crescent seed means moonseed.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Moonseed_fruit_1.jpg",
+    "author": "Nadiatalent",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wild-grape",
+    "file": "02-plants-and-herbal/wild-grape.jpg",
+    "title": "Wild grape (Vitis riparia)",
+    "caption": "Wild riverbank grape vine with clusters of small blue-black grapes and broad toothed, lobed leaves. Confirm forked tendrils and several round or teardrop seeds per fruit, because moonseed fruit looks almost identical but is poisonous. A photo alone is never enough for identification.",
+    "alt": "Wild grape vine with broad lobed leaves and small dark blue grape clusters",
+    "category": "plants",
+    "region": [
+      "northeast",
+      "southeast",
+      "midwest",
+      "great-plains",
+      "rocky-mountains"
+    ],
+    "tags": [
+      "wild-grape",
+      "vitis",
+      "grapes",
+      "edible",
+      "vine",
+      "berries",
+      "lookalike"
+    ],
+    "risk": "high",
+    "lookalikes": [
+      "moonseed"
+    ],
+    "critical_warning": "Moonseed fruit looks like wild grape and can kill: one crescent seed means moonseed.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vitis_riparia,_Ontario_2007.JPG",
+    "author": "Ryandaum at English Wikipedia",
+    "license": "PD"
+  },
+  {
+    "id": "yew",
+    "file": "02-plants-and-herbal/yew.jpg",
+    "title": "Yew branches with red arils (Taxus)",
+    "caption": "Yew: dark green flat needles in two rows along the twigs and bright red cup-shaped berries (arils) with the seed visible in the open end. Common in landscaping. The needles, bark, and seed are lethal; never use for needle tea. A photo alone is never enough for identification.",
+    "alt": "Yew branches with flat dark needles and scattered bright red berries",
+    "category": "plants",
+    "region": "all",
+    "tags": [
+      "yew",
+      "taxus",
+      "deadly",
+      "poisonous",
+      "evergreen",
+      "needles",
+      "red-berries",
+      "landscaping",
+      "pine-needle-tea"
+    ],
+    "risk": "high",
+    "critical_warning": "Yew needles, bark, and seeds are lethal and can stop the heart. Never confuse with pine, fir, or hemlock-tree needles for tea.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taxus_berries,_Frauenstein.jpg",
+    "author": "Gerda Arendt",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "oleander",
+    "file": "02-plants-and-herbal/oleander.jpg",
+    "title": "Oleander (Nerium oleander)",
+    "caption": "Oleander flowers and leaves: clusters of pink five-petaled flowers and long, narrow, leathery leaves. Planted as hedges across desert and southern cities (Las Vegas, Phoenix, California). Every part is deadly, and so is smoke from burning it. A photo alone is never enough for identification.",
+    "alt": "Pink oleander flower clusters among long narrow dark green leaves",
+    "category": "plants",
+    "region": [
+      "southwest",
+      "california",
+      "southeast",
+      "great-basin",
+      "hawaii"
+    ],
+    "tags": [
+      "oleander",
+      "nerium",
+      "deadly",
+      "poisonous",
+      "hedge",
+      "landscaping",
+      "las-vegas",
+      "cardiac"
+    ],
+    "risk": "high",
+    "critical_warning": "All parts of oleander are deadly, including smoke from burning it and water it has soaked in.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nerium_oleander_flowers_leaves.jpg",
+    "author": "Alvesgaspar",
+    "license": "CC-BY-2.5"
+  },
+  {
+    "id": "poison-ivy",
+    "file": "02-plants-and-herbal/poison-ivy.jpg",
+    "title": "Poison ivy leaves (Toxicodendron radicans)",
+    "caption": "Poison ivy: glossy compound leaves of three leaflets ('leaves of three, let it be'); the middle leaflet has a longer stalk, and edges may be smooth or coarsely toothed. Grows as a ground cover, shrub, or hairy vine. The urushiol oil causes a blistering rash.",
+    "alt": "Dense patch of glossy green poison ivy with leaves in groups of three",
+    "category": "plants",
+    "region": [
+      "northeast",
+      "southeast",
+      "midwest",
+      "great-plains",
+      "rocky-mountains",
+      "southwest"
+    ],
+    "tags": [
+      "poison-ivy",
+      "toxicodendron",
+      "urushiol",
+      "rash",
+      "leaves-of-three",
+      "contact-irritant"
+    ],
+    "risk": "medium",
+    "critical_warning": "Never burn poison ivy: inhaled smoke causes severe lung injury. Wash skin with soap and cool water within 30 minutes.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Toxicodendron_radicans,_leaves.jpg",
+    "author": "D. Gordon E. Robertson",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "id": "poison-oak",
+    "file": "02-plants-and-herbal/poison-oak.jpg",
+    "title": "Pacific poison oak in fall color (Toxicodendron diversilobum)",
+    "caption": "Pacific poison oak at the base of an oak tree: lobed, oak-like leaflets in groups of three, turning red and pink in fall. Common in California and the Pacific Northwest. The urushiol oil causes a blistering rash, even from bare winter stems.",
+    "alt": "Red and green three-part poison oak leaves climbing the base of an oak trunk",
+    "category": "plants",
+    "region": [
+      "california",
+      "pacific-northwest"
+    ],
+    "tags": [
+      "poison-oak",
+      "toxicodendron",
+      "urushiol",
+      "rash",
+      "leaves-of-three",
+      "contact-irritant"
+    ],
+    "risk": "medium",
+    "critical_warning": "Never burn poison oak: inhaled smoke causes severe lung injury. Wash skin with soap and cool water within 30 minutes.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:PoisonOak_wb_biggerLeaves.jpg",
+    "author": "Elf",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "id": "poison-sumac",
+    "file": "02-plants-and-herbal/poison-sumac.jpg",
+    "title": "Poison sumac in fall (Toxicodendron vernix)",
+    "caption": "Poison sumac in autumn: compound leaves of 7-13 smooth-edged, pointed oval leaflets on red stalks, turning orange and red. Grows in swamps and wet woods of the East. Harmless sumacs have toothed leaflets and red upright berry clusters; poison sumac has drooping whitish berries.",
+    "alt": "Poison sumac branch with orange and red smooth-edged leaflets on red stems",
+    "category": "plants",
+    "region": [
+      "northeast",
+      "southeast",
+      "midwest"
+    ],
+    "tags": [
+      "poison-sumac",
+      "toxicodendron",
+      "urushiol",
+      "rash",
+      "swamp",
+      "contact-irritant"
+    ],
+    "risk": "medium",
+    "critical_warning": "Never burn poison sumac: inhaled smoke causes severe lung injury.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Toxicodendron_vernix_autumn.jpg",
+    "author": "John Barber",
+    "license": "CC-BY-2.0"
+  },
+  {
+    "id": "cattail",
+    "file": "02-plants-and-herbal/cattail.jpg",
+    "title": "Cattail seed head (Typha)",
+    "caption": "Cattail: a brown sausage-shaped seed head on a tall stalk among long, flat, sword-like leaves, in shallow water. Shoots, pollen, and rhizome starch are edible, and cattails mark standing water. Before the seed heads appear, young shoots can be confused with toxic irises. A photo alone is never enough for identification.",
+    "alt": "Brown cylindrical cattail head standing among tall flat green leaves",
+    "category": "plants",
+    "region": "all",
+    "tags": [
+      "cattail",
+      "typha",
+      "edible",
+      "wetland",
+      "starch",
+      "water-indicator",
+      "iris-lookalike"
+    ],
+    "risk": "medium",
+    "critical_warning": "Young cattail shoots resemble toxic iris; harvest only where the brown seed heads confirm cattail, and avoid polluted water.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Typha_latifolia_Library_Garden.JPG",
+    "author": "Crusier",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "id": "singleleaf-pinyon",
+    "file": "02-plants-and-herbal/regions/singleleaf-pinyon.jpg",
+    "title": "Singleleaf pinyon pine tree, Nevada (Pinus monophylla)",
+    "caption": "Singleleaf pinyon pine on Spruce Mountain, Nevada: a short, rounded, bushy pine of Great Basin hillsides around 5,000-7,500 ft, such as the Pine Nut Mountains and Virginia Range near Reno. It is the main pine-nut tree; its needles grow singly, not in bundles.",
+    "alt": "Short rounded bushy pinyon pine tree on a dry hillside under blue sky",
+    "category": "plants",
+    "region": [
+      "great-basin",
+      "southwest"
+    ],
+    "tags": [
+      "pinyon",
+      "pinon",
+      "pine-nuts",
+      "pinus-monophylla",
+      "reno",
+      "nevada",
+      "great-basin",
+      "tree",
+      "edible"
+    ],
+    "risk": "low",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2013-06-27_14_53_26_Single-leaf_Pinyon_on_Spruce_Mountain,_Nevada.jpg",
+    "author": "Famartin",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "id": "pinyon-cone",
+    "file": "02-plants-and-herbal/regions/pinyon-cone.jpg",
+    "title": "Singleleaf pinyon cone (Pinus monophylla)",
+    "caption": "An opened singleleaf pinyon cone on a branch with single blue-green needles. Pine nuts sit at the base of the cone scales; pick green cones in September-October and roast them by the fire until they open.",
+    "alt": "Open brown pinyon pine cone surrounded by short needles",
+    "category": "plants",
+    "region": [
+      "great-basin",
+      "southwest"
+    ],
+    "tags": [
+      "pinyon",
+      "pinon",
+      "pine-nuts",
+      "pine-cone",
+      "pinus-monophylla",
+      "reno",
+      "las-vegas",
+      "edible"
+    ],
+    "risk": "low",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pinus_monophylla-_cone.jpg",
+    "author": "Thayne Tuason",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "honey-mesquite",
+    "file": "02-plants-and-herbal/regions/honey-mesquite.jpg",
+    "title": "Honey mesquite pods (Prosopis glandulosa)",
+    "caption": "Honey mesquite branch with long bean pods and feathery compound leaves. These pods are still green; harvest them in summer once they turn dry and yellow-tan, picked from the tree, then grind into sweet flour. Discard moldy or black-spotted pods.",
+    "alt": "Clusters of long green mesquite bean pods among small feathery leaves",
+    "category": "plants",
+    "region": [
+      "southwest",
+      "great-basin",
+      "california"
+    ],
+    "tags": [
+      "mesquite",
+      "honey-mesquite",
+      "prosopis",
+      "pods",
+      "flour",
+      "las-vegas",
+      "desert",
+      "tree",
+      "edible"
+    ],
+    "risk": "low",
+    "critical_warning": "Never use mesquite pods from the ground or with black spots: they can carry aflatoxin mold.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Prosopis-glandulosa-seed-pods.jpg",
+    "author": "Don A.W. Carlson",
+    "license": "CC-BY-2.5"
+  },
+  {
+    "id": "date-palm",
+    "file": "02-plants-and-herbal/regions/date-palm.jpg",
+    "title": "Date palms (Phoenix dactylifera)",
+    "caption": "A grove of date palms in the desert: tall, rough trunks with offshoots and crowns of long feather-like fronds. Planted at resorts and in older yards in Las Vegas and the low deserts; female trees bear dates in fall.",
+    "alt": "Group of tall date palm trees with feathery crowns in sandy desert",
+    "category": "plants",
+    "region": [
+      "southwest",
+      "california"
+    ],
+    "tags": [
+      "date-palm",
+      "dates",
+      "phoenix-dactylifera",
+      "palm",
+      "las-vegas",
+      "desert",
+      "tree",
+      "edible"
+    ],
+    "risk": "low",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phoenix_dactylifera0.jpg",
+    "author": "MPF",
+    "license": "CC-BY-2.5"
+  },
+  {
+    "id": "tourniquet-application",
+    "file": "01-emergency-medical/tourniquet-application.jpg",
+    "title": "Tourniquet applied high on the thigh (training)",
+    "caption": "A Navy corpsman applies a windlass tourniquet high on a simulated casualty's thigh, above the wound, during tactical combat casualty care training. Tighten until the bleeding stops and the pulse below is gone, then write down the time.",
+    "alt": "Medic kneeling and tightening a tourniquet around the upper thigh of a casualty on the ground",
+    "category": "medical",
+    "region": "all",
+    "tags": [
+      "tourniquet",
+      "bleeding",
+      "hemorrhage",
+      "windlass",
+      "leg",
+      "thigh",
+      "trauma",
+      "stop-the-bleed"
+    ],
+    "risk": "high",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tourniquet_application.jpg",
+    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Barry Hirayama (Released)",
+    "license": "PD-USGov"
+  },
+  {
+    "id": "upper-arm-splint",
+    "file": "01-emergency-medical/upper-arm-splint.jpg",
+    "title": "Upper arm splint with sling (diagram)",
+    "caption": "Upper arm (humerus) fracture splint: padded rigid splints on the outside of the upper arm bound with cravat bandages above and below the break, with the forearm supported in a sling across the chest. Check circulation, sensation, and movement below the splint.",
+    "alt": "Line drawing of an upper arm splinted with bands and the forearm in a sling",
+    "category": "medical",
+    "region": "all",
+    "tags": [
+      "splint",
+      "fracture",
+      "broken-arm",
+      "humerus",
+      "sling",
+      "cravat"
+    ],
+    "risk": "medium",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Upper_arm_splint.jpg",
+    "author": "U.S. Navy",
+    "license": "PD-USGov"
+  },
+  {
+    "id": "forearm-splint",
+    "file": "01-emergency-medical/forearm-splint.jpg",
+    "title": "Forearm splint in a sling (diagram)",
+    "caption": "Forearm or wrist fracture: a padded rigid splint from elbow to past the fingertips, the arm carried in a triangular-bandage sling, hand slightly higher than the elbow. Check circulation, sensation, and movement in the fingers.",
+    "alt": "Line drawing of a man with a splinted forearm resting in a triangular sling",
+    "category": "medical",
+    "region": "all",
+    "tags": [
+      "splint",
+      "fracture",
+      "broken-arm",
+      "forearm",
+      "wrist",
+      "sling",
+      "triangular-bandage"
+    ],
+    "risk": "medium",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Forearm_splint.jpg",
+    "author": "U.S. Navy",
+    "license": "PD-USGov"
+  },
+  {
+    "id": "bowline",
+    "file": "03-survival-howto/bowline.jpg",
+    "title": "How to tie a bowline (steps 1-5)",
+    "caption": "Tying a bowline in five steps: make a small overhand loop in the standing part, pass the working end up through it ('the rabbit comes out of the hole'), around behind the standing part ('around the tree'), and back down through the loop ('back down the hole'), then pull tight. Makes a fixed loop that will not slip.",
+    "alt": "Five-step drawing of a rope forming a bowline knot",
+    "category": "survival",
+    "region": "all",
+    "tags": [
+      "bowline",
+      "knot",
+      "knots",
+      "rope",
+      "fixed-loop",
+      "rescue-loop",
+      "how-to-tie"
+    ],
+    "risk": "low",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bowline_tying.png",
+    "author": "Buz11",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "taut-line-hitch",
+    "file": "03-survival-howto/taut-line-hitch.jpg",
+    "title": "Taut-line hitch",
+    "caption": "A taut-line hitch tied around a rope: the working end makes two turns inside the loop and one turn outside, forming an adjustable loop that slides to tighten tent and tarp guylines and then holds under load.",
+    "alt": "Blue cord tied in a taut-line hitch around a green rope",
+    "category": "survival",
+    "region": "all",
+    "tags": [
+      "taut-line-hitch",
+      "knot",
+      "knots",
+      "hitch",
+      "guyline",
+      "tarp",
+      "tent",
+      "adjustable",
+      "how-to-tie"
+    ],
+    "risk": "low",
+    "source_url": "https://commons.wikimedia.org/wiki/File:TautlineHitch-ABOK-1800-final.jpg",
+    "author": "David J. Fred",
+    "license": "CC-BY-SA-2.5"
+  },
+  {
+    "id": "bow-drill",
+    "file": "03-survival-howto/bow-drill.jpg",
+    "title": "Bow drill fire-starting set (diagram)",
+    "caption": "Bow drill parts, labeled: socket (bearing block) held on top of the drill (spindle), the bow with its cord wrapped once around the drill, and the fire board with a notch, plus the kneeling position with a foot holding the fire board. From a US Army survival manual.",
+    "alt": "Labeled drawing of bow drill parts and a person kneeling to use one",
+    "category": "survival",
+    "region": "all",
+    "tags": [
+      "bow-drill",
+      "fire",
+      "friction-fire",
+      "spindle",
+      "hearth-board",
+      "fire-board",
+      "fire-starting"
+    ],
+    "risk": "low",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bow_and_drill.png",
+    "author": "United States Army",
+    "license": "PD-USGov"
+  },
+  {
+    "id": "debris-hut",
+    "file": "03-survival-howto/debris-hut.jpg",
+    "title": "Debris hut construction (diagram)",
+    "caption": "Building a debris hut: (1) a ridgepole propped on a stump with ribs leaned along both sides to make a narrow wedge frame; (2) the frame covered in a thick pile of leaves and debris. From US Army survival manual FM 21-76.",
+    "alt": "Two-step drawing of a debris hut frame of sticks and then the frame covered with leaves",
+    "category": "survival",
+    "region": "all",
+    "tags": [
+      "debris-hut",
+      "shelter",
+      "emergency-shelter",
+      "cold-weather",
+      "leaves",
+      "ridgepole",
+      "no-tools"
+    ],
+    "risk": "low",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Debris_hut.gif",
+    "author": "U.S. Army",
+    "license": "PD-USGov"
+  },
+  {
+    "id": "topo-map-contours",
+    "file": "04-maps/topo-map-contours.jpg",
+    "title": "USGS topographic map with contour lines (Stowe, VT)",
+    "caption": "Section of a USGS 1:24,000 topographic map (Stowe, Vermont) with brown contour lines at 20-foot intervals. Closed circles mark hilltops such as Cady Hill, tight lines show steep slopes, and contour V's point upstream where they cross streams. Green is woods, blue is water.",
+    "alt": "Topographic map showing a river valley, a town, hills, and brown contour lines",
+    "category": "maps",
+    "region": "all",
+    "tags": [
+      "topographic-map",
+      "topo",
+      "contour-lines",
+      "usgs",
+      "elevation",
+      "map-reading",
+      "terrain"
+    ],
+    "risk": "low",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Topographic_map_example.png",
+    "author": "USGS",
+    "license": "PD-USGov"
+  },
+  {
+    "id": "polaris-big-dipper",
+    "file": "05-navigation/polaris-big-dipper.jpg",
+    "title": "Finding Polaris with the Big Dipper (diagram)",
+    "caption": "Finding the North Star: follow the two pointer stars at the end of the Big Dipper's cup (Merak to Dubhe) about five times their spacing to Polaris, the end of the Little Dipper's handle. Cassiopeia (a W or M shape) sits on the opposite side. Polaris marks true north within 1 degree.",
+    "alt": "Night-sky diagram with a dashed line from the Big Dipper pointer stars to Polaris",
+    "category": "navigation",
+    "region": "all",
+    "tags": [
+      "north-star",
+      "polaris",
+      "big-dipper",
+      "little-dipper",
+      "cassiopeia",
+      "stars",
+      "night-navigation",
+      "find-north"
+    ],
+    "risk": "low",
+    "source_url": "https://github.com/leochong/survival-prep",
+    "author": "survival-prep contributors (drawn from star catalog positions)",
+    "license": "CC0-1.0"
+  }
+]

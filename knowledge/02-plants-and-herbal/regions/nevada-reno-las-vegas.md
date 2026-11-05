@@ -31,6 +31,9 @@ Both cities are surrounded by **very limited wild food**. Most calories within r
 - **Curl-leaf mountain mahogany (*Cercocarpus ledifolius*)** — very hard, dense wood for tools and long-burning fuel. Not food.
 - **Chokecherry (*Prunus virginiana*)** — shrubby trees in canyons, with fruit in late summer. Eat the flesh only; pits and leaves are toxic.
 
+![Short rounded bushy pinyon pine tree on a dry hillside under blue sky](../../../images/02-plants-and-herbal/regions/singleleaf-pinyon.jpg)
+![Open brown pinyon pine cone surrounded by short needles](../../../images/02-plants-and-herbal/regions/pinyon-cone.jpg)
+
 ### Urban and introduced trees (Reno/Sparks)
 
 Reno's older neighborhoods (Old Southwest, Wells Avenue, Sparks) and parks have many food trees:
@@ -98,6 +101,8 @@ The Truckee River runs through downtown year-round (treat everything; there is u
 - **Spring Mountains / Mount Charleston (above about 6,000 ft):** singleleaf pinyon (**pine nuts in fall**), Utah juniper, ponderosa pine, white fir, and Great Basin bristlecone pine (ancient and protected, not a food source). Quaking aspen grows in moist pockets.
 - **Fremont cottonwood and willows** — along Las Vegas Wash and at springs. **Indicators of water.**
 
+![Clusters of long green mesquite bean pods among small feathery leaves](../../../images/02-plants-and-herbal/regions/honey-mesquite.jpg)
+
 ### Urban and planted trees (Las Vegas)
 
 Las Vegas has many planted food trees in yards, older neighborhoods, golf courses, and resort grounds:
@@ -110,6 +115,8 @@ Las Vegas has many planted food trees in yards, older neighborhoods, golf course
 - **Pecan and pistachio** — occasional. Pistachios grow in Pahrump and Amargosa valley orchards.
 - **Palo verde (*Parkinsonia*)** — planted as a landscape tree. Green seeds are eaten raw like peas and mature seeds cooked.
 - **Do not eat:** oleander (everywhere, deadly), chinaberry (deadly berries), African sumac berries, Mexican bird-of-paradise seeds (toxic), lantana berries, Brazilian pepper.
+
+![Group of tall date palm trees with feathery crowns in sandy desert](../../../images/02-plants-and-herbal/regions/date-palm.jpg)
 
 ### Shrubs, cacti, and herbs
 
@@ -149,6 +156,8 @@ Las Vegas has many planted food trees in yards, older neighborhoods, golf course
 - **Desert tobacco**
 - **Jimsonweed**
 - **Wild cucumber** (*Marah*, coyote melon) — toxic gourds
+
+![Pink oleander flower clusters among long narrow dark green leaves](../../../images/02-plants-and-herbal/oleander.jpg)
 
 **Animals:** Mojave rattlesnake and sidewinder (see the *Venomous Bites* doc), Gila monster, black widows. Bark scorpions are rare here compared with Arizona.
 

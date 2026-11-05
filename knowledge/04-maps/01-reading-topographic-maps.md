@@ -36,6 +36,8 @@ Each line connects points of equal elevation. Every fifth line (index contour) i
 
 **Rule of V's:** when contour lines cross a stream, they point upstream.
 
+![Topographic map showing a river valley, a town, hills, and brown contour lines](../../images/04-maps/topo-map-contours.jpg)
+
 ## The five major and three minor terrain features
 
 Major: hill, ridge, valley, saddle, depression. Minor: draw (small valley), spur (small ridge), cliff. Learn to see them in 3D from contour patterns — this is terrain association, the most reliable navigation skill.

@@ -39,6 +39,8 @@ Rough method — errors of 15°+ are common, worse near midday in summer and at 
 - Alternatively, **Cassiopeia** (a W or M shape) sits opposite the Big Dipper; Polaris is roughly midway between them.
 - Polaris is within 1° of true north. Its height above the horizon equals your latitude (a fist at arm's length ≈ 10°) — useful for estimating how far north you are.
 
+![Night-sky diagram with a dashed line from the Big Dipper pointer stars to Polaris](../../images/05-navigation/polaris-big-dipper.jpg)
+
 ## Orion
 
 Visible in winter evenings. The top star of Orion's belt (Mintaka) rises almost exactly due **east** and sets due **west**. The sword hanging from the belt points roughly south.

@@ -18,7 +18,8 @@ from .docs import Chunk
 STOPWORDS = set(
     """a an and are as at be but by can do does for from has have how i if in into is it
     its me my no not of on or our so than that the their then there these they this to
-    too was we what when where which who why will with you your should would could""".split()
+    too was we what when where which who why will with you your should would could
+    look looks like""".split()  # "what does X look like": the subject words should decide
 )
 
 DEFAULT_EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
@@ -66,6 +67,7 @@ class Index:
         self.avgdl = (sum(self.lengths) / len(self.lengths)) if self.lengths else 0.0
         self.embeddings = None  # numpy array, optional
         self.embed_model_name: str | None = None
+        self.images: dict[str, dict] = {}  # image id -> manifest entry (for display)
 
     # ------------------------------------------------------------------ build
     def build_embeddings(self, model_name: str = DEFAULT_EMBED_MODEL) -> None:
@@ -84,8 +86,15 @@ class Index:
         with (out_dir / "chunks.jsonl").open("w", encoding="utf-8") as f:
             for c in self.chunks:
                 f.write(json.dumps(c.to_dict(), ensure_ascii=False) + "\n")
-        manifest = {"num_chunks": len(self.chunks), "embed_model": self.embed_model_name}
+        manifest = {
+            "num_chunks": len(self.chunks),
+            "num_images": len(self.images),
+            "embed_model": self.embed_model_name,
+        }
         (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+        (out_dir / "images.json").write_text(
+            json.dumps(self.images, indent=1, ensure_ascii=False), encoding="utf-8"
+        )
         emb_path = out_dir / "embeddings.npy"
         if self.embeddings is not None:
             import numpy as np
@@ -104,6 +113,9 @@ class Index:
         with chunks_path.open(encoding="utf-8") as f:
             chunks = [Chunk.from_dict(json.loads(line)) for line in f if line.strip()]
         idx = cls(chunks)
+        images_path = index_dir / "images.json"
+        if images_path.exists():
+            idx.images = json.loads(images_path.read_text(encoding="utf-8"))
         manifest = json.loads((index_dir / "manifest.json").read_text(encoding="utf-8"))
         emb_path = index_dir / "embeddings.npy"
         if manifest.get("embed_model") and emb_path.exists():

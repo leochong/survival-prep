@@ -22,6 +22,9 @@ last_reviewed: 2026-11-03
 
 Also useful: **figure-eight** (stopper knot at rope ends), **two half hitches** (quick tie-off), **timber hitch** (dragging logs).
 
+![Five-step drawing of a rope forming a bowline knot](../../images/03-survival-howto/bowline.jpg)
+![Blue cord tied in a taut-line hitch around a green rope](../../images/03-survival-howto/taut-line-hitch.jpg)
+
 ## Lashings
 
 - **Square lashing:** joins poles at right angles (clove hitch start, 3–4 wraps, 2–3 frapping turns, clove hitch finish).

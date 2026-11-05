@@ -14,6 +14,8 @@ last_reviewed: 2026-11-03
 
 For an unconscious person who is breathing normally: roll onto their side, top knee bent forward to stop rolling, head tilted back with the mouth pointing down so fluids drain. Check breathing continually.
 
+![Person lying on their side with top knee bent forward and hand under cheek, mouth facing the floor](../../images/01-emergency-medical/recovery-position.jpg)
+
 ## Adult CPR
 
 1. Check responsiveness: tap and shout.

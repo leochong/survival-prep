@@ -242,6 +242,7 @@ def test_images_small_licensed_and_referenced():
     ("moonseed crescent seed vs wild grape", "moonseed"),
     ("how to tie a bowline", "bowline"),
     ("how to splint a broken forearm", "forearm-splint"),
+    ("unconscious but breathing recovery position", "recovery-position"),
     ("find the north star big dipper", "polaris-big-dipper"),
     ("contour lines topographic map", "topo-map-contours"),
     ("Reno pinyon pine nut tree", "singleleaf-pinyon"),

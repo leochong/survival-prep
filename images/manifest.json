@@ -600,6 +600,28 @@
     "license": "PD-USGov"
   },
   {
+    "id": "recovery-position",
+    "file": "01-emergency-medical/recovery-position.jpg",
+    "title": "Recovery position (stable side position)",
+    "caption": "Recovery position for an unconscious person who is breathing normally: lying on their side, the top knee bent forward to stop them rolling, the upper hand under the cheek, and the head tilted back with the mouth pointing down so vomit and fluids drain out. Keep checking breathing; start CPR if it stops.",
+    "alt": "Person lying on their side with top knee bent forward and hand under cheek, mouth facing the floor",
+    "category": "medical",
+    "region": "all",
+    "tags": [
+      "recovery-position",
+      "unconscious",
+      "airway",
+      "side-position",
+      "first-aid",
+      "vomiting",
+      "overdose"
+    ],
+    "risk": "high",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stabile_seitenlage.png",
+    "author": "Grummelbacke",
+    "license": "CC0-1.0"
+  },
+  {
     "id": "bowline",
     "file": "03-survival-howto/bowline.jpg",
     "title": "How to tie a bowline (steps 1-5)",
